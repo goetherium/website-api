@@ -291,7 +291,7 @@ o	destUserLogin – логин получателя (если определён
 {"jsonrpc":"2.0","method":"txGet","params":{"txHash":"0x8adb5b0cc97401600e50ee0c055b592b389419edd31e18eb7bd1a42d1dcdcf71"},"id":5}
 
 Упешный результат
-{"jsonrpc":"2.0","id":1,"result":{"hash":"0x597f3f2d090fc66d1a07fa5e11a584d49121d3d9f5a86460198130d1662ffd41","nonce":4,"blockHash":"0x288e3717387df266df4f109ccff64fc41b0ce0812d55707779152831cbeb21d2","blockNumber":1367694,"transactionIndex":0,"from":"0x70Cf3940CDa05eEaCfeb111461bA60029d6a4dED","to":"0xD8eD4e25fe9574E9Ea3Fcb4Ce4c1d9740AA72731","value":"0.65","gasUsed":"0.000000000000021","gasPrice":"0.000000000000000001","input":"0x","sourceUserLogin":"dlukyant@gmail.com","destUserLogin":"dlukyant"}}
+{"jsonrpc":"2.0","id":1,"result":{"hash":"0x597f3f2d090fc66d1a07fa5e11a584d49121d3d9f5a86460198130d1662ffd41","nonce":4,"blockHash":"0x288e3717387df266df4f109ccff64fc41b0ce0812d55707779152831cbeb21d2","blockNumber":1367694,"transactionIndex":0,"from":"0x70Cf3940CDa05eEaCfeb111461bA60029d6a4dED","to":"0xD8eD4e25fe9574E9Ea3Fcb4Ce4c1d9740AA72731","value":"0.65","gasUsed":"0.000000000000021","gasPrice":"0.000000000000000001","input":"0x","sourceUserLogin":"user1","destUserLogin":"user2"}}
 
 Ошибка
 {"jsonrpc":"2.0","id":5,"error":{"code":-2002,"message":"Транзакция не найдена"}}
